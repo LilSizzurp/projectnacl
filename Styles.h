@@ -17,7 +17,6 @@ public:
 	virtual int TopBar(int x, int y, int w, const char* title = 0) = 0;
 
 	static void WaterMark(const char* name, int x, int y, bool background = true);
-	static void About(int x, int y, int w, int h);
 };
 
 class DefaultStyle : public WindowStyle
